@@ -3,11 +3,12 @@
 
 terraform {
 
-  cloud {
-    workspaces {
-      name = "learn-terraform-eks"
-    }
-  }
+#  Removed by manuelbcd to avoid terraform cloud
+#  cloud {
+#    workspaces {
+#      name = "learn-terraform-eks"
+#    }
+#  }
 
   required_providers {
     aws = {
